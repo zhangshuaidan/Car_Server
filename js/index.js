@@ -155,9 +155,9 @@ imgLoader(arr, function (percentage) {
 if (percentage == 1) {
   $('#loader').remove();
     console.log("图片预加载完成");
-    $.getScript("js/main-sw.js",function(){
-        console.log("js加载成功")
-     });
+//  $.getScript("js/main-sw.js",function(){
+//      console.log("js加载成功")
+//   });
             }
  });
 
